@@ -3,8 +3,8 @@ This repository contains code examples for TensorFlow's new data pipelines. This
 
 Most of the introductory articles on TensorFlow would introduce you with the **feed_dict** method of feeding the data to the model. 
 **feed_dict** processes the input data in a single thread and while the data is being loaded and processed on CPU, the GPU remains 
-idle and when the GPU is training a batch of data, CPU remains in idle state. The developers of TensorFlow have advised not 
-to use this method during training or repeated validation of same datasets.
+idle and when the GPU is training a batch of data, CPU remains in the idle state. The developers of TensorFlow have advised not 
+to use this method during training or repeated validation of the same datasets.
 
 ![alt text](https://github.com/animesh-agarwal/Datasets-and-Iterators/blob/master/images/feed_dict.PNG)
 
