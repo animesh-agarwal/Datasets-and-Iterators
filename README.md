@@ -1,5 +1,5 @@
 # Datasets-and-Iterators
-This repository contains code examples for TensorFlow's new data pipelines. This is the support repository for the blog https://medium.com/@animeshblog/building-efficient-data-input-pipelines-using-tensorflow-8f647f03b4ce
+This repository contains code examples for TensorFlow's new data pipelines. This is the support repository for the blog https://towardsdatascience.com/building-efficient-data-pipelines-using-tensorflow-8f647f03b4ce
 
 Most of the introductory articles on TensorFlow would introduce you with the **feed_dict** method of feeding the data to the model. 
 **feed_dict** processes the input data in a single thread and while the data is being loaded and processed on CPU, the GPU remains 
